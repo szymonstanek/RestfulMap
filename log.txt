@@ -1,0 +1,10 @@
+[1715026641] INFO key: Server initialized and started
+[1715026674] INFO key: Server initialized and started
+[1715027114] INFO key: Server initialized and started
+[1715027248] INFO key: Server initialized and started
+[1715027381] INFO key: Server initialized and started
+[1715027822] INFO key: Server initialized and started
+[1715027845] GET ALL key: ALL
+[1715027863] POST key: k4
+[1715027868] GET ALL key: ALL
+[1715027886] INFO key: Server shutdown by user command.
