@@ -22,7 +22,9 @@ string getExecutablePath() {
 
 bool loadConfig() {
     string tempPath;
-    tempPath = getExecutablePath()+"/config.json";
+    tempPath = getExecutablePath();
+    string shortenedText = tempPath.substr(0, tempPath.size() - 9);
+    shortenedText = shortenedText + "config.json";
     //use manual path in production for testing
     //tempPath = "/home/stanio/CLionProjects/RestfulMap/config.json";
     ifstream configFile(tempPath);

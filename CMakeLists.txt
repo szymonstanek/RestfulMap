@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-project(MyPistacheProject)
+project(RestfulMap)
 
 # Używamy find_package do znalezienia pakietu Pistache
 find_package(PkgConfig REQUIRED)
