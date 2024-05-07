@@ -35,7 +35,7 @@ curl -X DELETE http://localhost:9080/purge/<key>/
 
 
 # Instalation
-At this moment, only Ubuntu 22.04 is tested natively. To run on other platforms, use the Docker instructions below.
+At this moment, only Ubuntu 22.04 is tested natively. To run on other platforms, use the Docker instructions provided below.
 ## Ubuntu 22.04
 ### Compiled
 [Add pistache PPA](https://launchpad.net/~pistache+team/+archive/ubuntu/unstable)
@@ -43,12 +43,12 @@ At this moment, only Ubuntu 22.04 is tested natively. To run on other platforms,
 sudo add-apt-repository ppa:pistache+team/unstable
 sudo apt update
 ```
-download from releses then change path in config.json
-then execute
+Download from releases, then change the path in config.json, and finally execute the program.
+
 ```bash
 ./RestfulMap
 ```
-to run
+to run.
 ### Compile yourself
 [Add pistache PPA](https://launchpad.net/~pistache+team/+archive/ubuntu/unstable)
 ```bash
