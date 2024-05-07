@@ -23,14 +23,14 @@ string getExecutablePath() {
 bool loadConfig() {
     string tempPath;
     tempPath = getExecutablePath();
-    string shortenedText = tempPath.substr(0, tempPath.size() - 9);
+    string shortenedText = tempPath.substr(0, tempPath.size() - 10);
     shortenedText = shortenedText + "config.json";
     //use manual path in production for testing
     //tempPath = "/home/stanio/CLionProjects/RestfulMap/config.json";
-    ifstream configFile(tempPath);
+    ifstream configFile(shortenedText);
     if (!configFile.is_open()) {
         cerr << "Failed to open config file." << endl;
-        cerr << tempPath << endl;
+        cerr << shortenedText << endl;
         return false;
     }
 
